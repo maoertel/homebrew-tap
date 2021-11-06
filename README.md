@@ -14,3 +14,12 @@ brew tap maoertel/tap
 ```bash
 brew install hoconvert
 ```
+
+## ftdc
+
+- [ftdc](https://github.com/maoertel/mongodb-ftdc): CLI tool and crate to download FTDC data from mongodb clusters.
+- install for `macOS/amd64`, `macOS/arm64` or `linux/amd64` with:
+
+```bash
+brew install ftdc
+```
