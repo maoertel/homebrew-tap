@@ -1,5 +1,6 @@
 class Hoconvert < Formula
   desc "CLI tool to convert HOCON into valid JSON or YAML written in Rust."
+  version "0.1.2"
   homepage "https://github.com/maoertel/hoconvert"
   license "MIT"
 
