@@ -1,20 +1,20 @@
 class Ftdc < Formula
   desc "Command line tool to download FTDC data from mongodb clusters."
-  version "0.1.2"
+  version "0.1.3"
   homepage "https://github.com/maoertel/mongodb-ftdc"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.2/ftdc-v0.1.2-macOS-darwin-amd64.tar.gz"
-    sha256 "b4a9b94886c95f01d946e1066266e1258092d1387cc6090f00ef84ff8f186f70"
+    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.3/ftdc-v0.1.3-macOS-darwin-amd64.tar.gz"
+    sha256 "d0117ba190ed0afbc048d84ad3d8a883e960158d451ece0758f0f48a0593b0b5"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.2/ftdc-v0.1.2-macOS-darwin-arm64.tar.gz"
-    sha256 "6a069f22289e9eae5a66ff5c17e6592e5933096016ba1c04c12943ee9e2e10e8"
+    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.3/ftdc-v0.1.3-macOS-darwin-arm64.tar.gz"
+    sha256 "209fd2d50f9a5c2faa490ac58772a9395f12f93e0e5f517f10e65e5bc2b4bb3d"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.2/ftdc-v0.1.2-linux-amd64.tar.gz"
-    sha256 "2f49613f73972a0ba04776886353cf11bc93ffd02b08c79b8504195da419f335"
+    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.3/ftdc-v0.1.3-linux-amd64.tar.gz"
+    sha256 "7b42b3cae56af5ef2660afeee89dc4e66693a6dddad63798b1af762167a90768"
   end
 
   def install
