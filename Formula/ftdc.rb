@@ -9,7 +9,7 @@ class Ftdc < Formula
   #   sha256 ""
   # end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.4/ftdc-v0.1.4-macOS-darwin-arm64.tar.gz"
+    url "https://github.com/maoertel/mongodb-ftdc/releases/download/v0.1.4/ftdc-v0.1.4-darwin-arm64.tar.gz"
     sha256 "fddef523c39df3fff52b1a4db215eebfa6624428629b9fb967d5c4e37922b900"
   end
   if OS.linux? && Hardware::CPU.intel?
