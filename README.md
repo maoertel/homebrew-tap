@@ -3,7 +3,7 @@
 Tap to install CLI tools via Homebrew.
 
 ```bash
-brew tap maoertel/homebrew-tap
+brew tap maoertel/tap
 ```
 
 ## Available Formulas
@@ -16,7 +16,7 @@ CLI tool to convert HOCON into valid JSON, YAML, or TOML.
 - Platforms: macOS (Intel/ARM), Linux (Intel/ARM)
 
 ```bash
-brew install maoertel/homebrew-tap/hoconvert
+brew install hoconvert
 ```
 
 ### ftdc
@@ -27,5 +27,5 @@ CLI tool to download FTDC data from MongoDB Atlas clusters.
 - Platforms: macOS (Intel/ARM), Linux (Intel/ARM)
 
 ```bash
-brew install maoertel/homebrew-tap/ftdc
+brew install ftdc
 ```
