@@ -1,25 +1,31 @@
-# Homebrew tap
+# Homebrew Tap
 
-Tap to publish applications with `brew`. Tap it with:
+Tap to install CLI tools via Homebrew.
 
 ```bash
-brew tap maoertel/tap
+brew tap maoertel/homebrew-tap
 ```
 
-## hoconvert
+## Available Formulas
 
-- [hoconvert](https://github.com/maoertel/hoconvert): CLI tool to convert HOCON into JSON or YAML.
-- install for `macOS/amd64`, `macOS/arm64` or `linux/amd64` with:
+### hoconvert
+
+CLI tool to convert HOCON into valid JSON, YAML, or TOML.
+
+- Repository: [maoertel/hoconvert](https://github.com/maoertel/hoconvert)
+- Platforms: macOS (Intel/ARM), Linux (Intel/ARM)
 
 ```bash
-brew install hoconvert
+brew install maoertel/homebrew-tap/hoconvert
 ```
 
-## ftdc
+### ftdc
 
-- [ftdc](https://github.com/maoertel/mongodb-ftdc): CLI tool and crate to download FTDC data from mongodb clusters.
-- install for `macOS/amd64`, `macOS/arm64` or `linux/amd64` with:
+CLI tool to download FTDC data from MongoDB Atlas clusters.
+
+- Repository: [maoertel/mongodb-ftdc](https://github.com/maoertel/mongodb-ftdc)
+- Platforms: macOS (Intel/ARM), Linux (Intel/ARM)
 
 ```bash
-brew install ftdc
+brew install maoertel/homebrew-tap/ftdc
 ```
